@@ -52,7 +52,7 @@ Running fastapi container on port 8000
 
 
 ### 6. Docker Compose
-* docker compose up --build (for updating image)
+* docker compose up -d --build (for updating image)
 * docker compose up
 * docker compose down -v
 
