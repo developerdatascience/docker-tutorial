@@ -1,0 +1,11 @@
+# Pull base image for python
+FROM python:3.10-alpine
+
+# Set working directory
+WORKDIR /app
+
+# Copy the current directory contents at /app in the image
+COPY . /app
+
+# Run the application
+CMD ["python", "main.py"]
