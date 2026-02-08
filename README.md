@@ -64,3 +64,6 @@ Running fastapi container on port 8000
 #### pulling the image from hub
 1. docker run -d --name <container_name> <USERNAME/IMAGE_NAME>
 
+### creating users and password in airflow running via docker
+docker compose exec airflow-webserver bash -c "airflow users create --username harendra --firstname harendra --lastname kumar --role Admin --email harendra091016@gmail.com --password password123"
+
